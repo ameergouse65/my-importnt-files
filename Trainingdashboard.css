@@ -1,0 +1,78 @@
+.navbar {
+  background-color: #192c46;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  border-bottom: 5px solid #f70f07;
+  border-top: 5px solid #f70f07;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.main-content {
+  display: flex;
+  height: calc(100vh - 70px);
+}
+
+.sidebar {
+  background-color: #1f2937;
+  border-right: 8px solid #ee1a1a;
+  transition: width 0.3s ease;
+  width: 70px;
+  padding-top: 70px; /* Adjusted */
+  position: sticky;
+  top: 70px; /* Adjusted */
+}
+
+.iconic {
+  width: 100%; /* Adjusted */
+}
+
+.iconic a {
+  color: #f4f7f4;
+  display: block;
+  padding: 10px 20px; /* Adjusted */
+  text-decoration: none;
+  transition: all 0.25s;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.iconic a:hover {
+  background-color: #42536d;
+  border-radius: 0 30px 30px 0; /* Adjusted */
+  text-decoration: none;
+  color: #007bff;
+}
+
+.iconic a:hover i {
+  transform: rotate(260deg);
+}
+
+.iconic a i {
+  font-size: 20px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+}
+
+.brand h3 {
+  margin-left: 10px;
+}
+
+.datetime {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: gold;
+  font-size: medium;
+}
+
+/* Adjustments for collapsed sidebar */
+.iconic a.collapsed {
+  padding: 10px; /* Adjusted */
+  text-align: center;
+}

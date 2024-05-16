@@ -1,0 +1,71 @@
+
+
+.datetime {
+    display: flex;
+    align-items: center;
+    font-size: larger;   
+}
+
+.datetime p {
+    margin: 0;
+    font-weight: bold;
+}
+
+ a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #e9dada;
+    font-weight: 800;
+    border: none;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+    justify-content: space-between; 
+    display: block;   
+
+  }
+
+
+
+.doctorsidebar {
+
+    height: 80%;
+    position: fixed;
+    top: 0;
+    left: 8px;
+    background-color: #023157;
+    overflow-x: hidden;
+    padding-top: 10px;
+    margin-top: 130px;
+ 
+}
+
+
+.doctorsidebar a {
+    padding: 30px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #e9dada;
+    font-weight: 800;
+    display: block;
+    border: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+    margin-top: 5px;
+  }
+.doctorsidebar a:hover{
+    color: #e3fc04;
+}
+.iconic i{
+    color: #e3fc04;
+}
+
+ 
+  .doctorsidebar a:nth-child(3) {
+    margin-top: 20px; 
+  }
+
+
+

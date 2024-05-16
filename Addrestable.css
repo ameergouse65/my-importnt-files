@@ -1,0 +1,79 @@
+.adres {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  backdrop-filter: blur(30px);
+  
+}
+
+
+.forminer {
+  border: 8px solid rgb(2, 31, 36);
+  height: 600px;
+  width: 460px;
+  border-radius: 35px;
+  background-color: #7cc4d1;
+  backdrop-filter: blur(3px);
+}
+
+.forst {
+  margin-left: 30px;
+}
+
+.ad_lables {
+  font-weight: bold;
+  color: #220992;
+}
+
+.input-wrapper {
+  margin-bottom: 20px; 
+}
+
+input[type='text'],
+input[type='number'] {
+  width: 300px; 
+  padding: 15px;
+  margin-top: 20px;
+  border: 2px solid #0947a3;
+  border-radius: 30px;
+}
+
+input:hover {
+  background-color: #d8b5e6;
+}
+
+input[type='text']:focus,
+input[type='number']:focus {
+  outline: none;
+  border-color: #989b98;
+}
+
+.error-message {
+  color: #ee0d23;
+  font-size: 16px;
+  margin-top: 10px; 
+}
+
+button[type='submit'] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button[type='submit']:hover {
+  background-color: #b84baf;
+}
+
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type='number'] {
+    -moz-appearance: textfield; 
+}

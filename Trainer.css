@@ -1,0 +1,60 @@
+/* 
+.table-container {
+    border: 1px solid #f18181;
+    border-radius: 5px;
+    padding: 20px;
+  }
+  
+  .trainer-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .select-all-checkbox {
+    margin-right: 10px;
+    color: #007bff;
+  }
+  
+  .checkbox-input {
+    margin-right: 5px;
+  }
+  
+  .checkbox-label {
+    cursor: pointer;
+  }
+  
+  .slot-button, .add-slot-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .slot-button:hover, .add-slot-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .button-container {
+    text-align: right;
+    margin-top: 10px;
+      
+  }
+  
+  body {
+    --bs-body-font-family: var(--bs-font-monospace);
+    --bs-body-line-height: 1.4;
+    --bs-body-bg: var(--bs-gray-100);
+  }
+  
+  .table {
+    --bs-table-color: var(--bs-gray-600);
+    --bs-table-bg: var(--bs-gray-100);
+    --bs-table-border-color: transparent;
+  }
+  .component-header {
+    color: var(--bs-purple);
+  }
+   */

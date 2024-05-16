@@ -1,0 +1,54 @@
+
+h5{
+    
+    color: whitesmoke;
+    cursor: pointer; 
+    transition: color 0.3s ease; 
+    margin: 10px;
+}
+h5:hover {
+    color: #e08a50; 
+}
+.one{
+    background-image: url('images/pet2.jpeg');
+    
+}
+img{
+    height: 400px;
+    width: 1495px;
+}
+p{
+    margin-top: 3px;
+    font-size: medium;
+    font-family: Verdana;
+    font-weight: bold;
+}
+h2{
+    justify-content: space-around;
+    margin-left: 450px;
+}
+.body{
+    color: rgb(243, 198, 245);
+}
+
+.checked{
+    color: orange;
+}
+.styled-button {
+    background-color: #78bb86;
+    padding: 3px;
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer;
+    font-size: 16px;
+}
+.styled-button:hover {
+    background-color: #348041; 
+  }
+
+
+  .daycare-wrapper {
+    padding-left: 200px; 
+    margin-top: 100px; 
+    
+  }

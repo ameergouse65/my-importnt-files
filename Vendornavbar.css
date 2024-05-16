@@ -1,0 +1,110 @@
+.macro{
+    margin-right: auto;
+    padding-top: 10px;
+    display: flex;
+
+}
+
+.mnc{
+    margin-right: 10px;
+}
+
+
+
+.datetime {
+    display: flex;
+    align-items: center;
+    font-size: larger;   
+}
+
+.datetime p {
+    margin: 0;
+    font-weight: bold;
+}
+
+ a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #e9dada;
+    font-weight: 800;
+    border: none;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+    justify-content: space-between; 
+    display: block;   
+
+  }
+
+
+
+.vendorsidebar {
+    position: sticky;
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    top: 0;
+    background-color: #000000;
+    overflow-x: hidden;
+    padding-top: 10px;
+    
+ 
+}
+
+
+.daycare-wrapper {
+    padding-left: 200px; 
+    margin-top: 100px; 
+  }
+  
+
+ 
+  
+
+.vendorsidebar a {
+    padding: 30px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #e9dada;
+    font-weight: 800;
+    display: block;
+    border: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+    margin-top: 5px;
+  }
+.vendorsidebar a:hover{
+    color: #e3fc04;
+}
+.icons i{
+    color: #e3fc04;
+}
+
+
+/* Add sticky position to your navbar */
+.build {
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Ensure the navbar stays on top */
+  }
+  
+  /* Adjust margin to create space for the sticky navbar */
+  /* Assuming your navbar height is 80px, you may need to adjust this value */
+  .main-content {
+    margin-top: 80px; /* Adjust according to your navbar height */
+  }
+  
+  /* Add transition effect for smooth change */
+  .vendorsidebar {
+    transition: width 0.5s;
+  }
+  
+  /* Add sticky position to the top navigation links */
+  .builder {
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Ensure the navbar stays on top */
+  }
+  

@@ -1,0 +1,33 @@
+
+.contact-right {
+ 
+   
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .data {
+    width: 25%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .data td {
+    padding: 10px;
+
+  }
+  .data td:hover{
+   color:#333300;
+  }
+  
+  .data td:first-child {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  h3 {
+    color: #333;
+  }
+  
+  
+  

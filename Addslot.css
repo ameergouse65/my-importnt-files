@@ -1,0 +1,106 @@
+
+.got {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    margin-left: 10px;
+  }
+  .lables{
+    color: rgb(10, 10, 12);
+    font-weight: 700;
+    width: 100px;
+    font-size: 15px;
+    font-family: "Calibri";
+
+  }
+  
+  .form-container {
+    margin-left: 30px;
+    border: 3px solid #af87f8;
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 20px; 
+    box-sizing: border-box; 
+    max-width: 460px; 
+    width: 100%; 
+    box-shadow: 10px  8px 15px rgb(24, 23, 23);
+    backdrop-filter: blur(0.5px);
+    background-color: rgb(228, 228, 228);
+    
+  }
+  
+  
+  .labels {
+    display: block;
+    margin-bottom: 8px;
+    
+  }
+  
+  
+   input {
+    width: calc(100% - 10px);  
+    padding: 8px;
+    margin-bottom: 15px; 
+    border-radius: 20px;
+    width: 250px;
+    
+   }
+  input:hover{
+    background-color: rgb(86, 4, 94);
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 30px;
+    margin-top: 5px;
+  }
+  
+  
+  .boat {
+    margin: auto;
+    height: 700px;
+    /* background-image: url('../src/images/Traning3.avif');  */
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+    font-family: 'Arial', sans-serif;
+   
+  }
+  
+  h4 {
+    color: rgb(5, 5, 5);
+    font-weight: bold;
+    font-size: 30PX;
+  }
+  
+  .head {
+    max-width: 600px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+  }
+ 
+  button{
+   
+    background-color: rgb(233, 233, 236);
+    padding: 5px;
+    width: 60px;
+    border-radius: 5px;
+    color: azure;
+  }
+
+  
+@media only screen and (max-width: 600px) {
+  .form-container {
+      margin-left: 10px;
+      max-width: none;
+  }
+
+  input {
+      width: calc(100% - 20px);
+  }
+}
+  
+   
+  
